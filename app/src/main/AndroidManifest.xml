@@ -22,7 +22,7 @@
             android:name=".MyService"
             android:exported="false" />
         <activity
-            android:label="MP3 Player"
+            android:label="MP3 Player_20012021014"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
