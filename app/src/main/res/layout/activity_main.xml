@@ -79,6 +79,16 @@
                        android:textSize="24dp"/>
 
 
+                   <SeekBar
+                       android:id="@+id/slider"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:layout_constraintStart_toStartOf="parent"
+                       app:layout_constraintEnd_toEndOf="parent"
+                       app:layout_constraintTop_toBottomOf="@id/text_music_name"
+                       android:layout_marginTop="20dp"/>
+
+
 
                    <com.google.android.material.floatingactionbutton.FloatingActionButton
                        android:id="@+id/btn_shuffle"
@@ -86,7 +96,7 @@
                        android:layout_height="wrap_content"
                        app:layout_constraintBottom_toBottomOf="parent"
                        app:layout_constraintStart_toStartOf="parent"
-                       app:layout_constraintTop_toBottomOf="@+id/text_music_name"
+                       app:layout_constraintTop_toBottomOf="@+id/slider"
                        android:layout_marginTop="55dp"
                        android:layout_marginStart="19dp"
                        android:layout_marginBottom="40dp"
